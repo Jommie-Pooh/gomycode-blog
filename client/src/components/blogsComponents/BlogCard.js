@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const BlogCard = () => {
+const BlogCard = ({ blogId }) => {
   return (
     <div className="col-md-4 col-sm-6 col-12">
       <div className="card" style={{ width: "100%" }}>
